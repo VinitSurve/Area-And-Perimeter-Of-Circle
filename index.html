@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <script language="Javascript">
+            function area()
+            {
+                var a,b;
+             a=3.14*parseInt(f1.t1.value);
+             b=+a
+             f1.t2.value=+a
+            }
+            function perimeter()
+            {
+                var a;
+                a=2*3.14*parseInt(f1.t1.value);
+                f1.t2.value=+a
+            }
+        </script>
+    </head>
+    <body>
+    <font color="Purple">
+        <h1>Formula </h1>
+        <font color="Black"><h3>Circle</h3></font>
+    </font>
+    <hr width="150" align="left">
+    Area = π x r<sup>2</sup> <br />
+    Perimeter = 2 x π x r = π x d
+    <font color="purple"><h1>Variables</h1></font>
+    <form name="f1">
+        Radius&nbsp;&nbsp;<input type="text" name="t1"><br><br>
+    <font color="purple"><h1>Calculations</h1></font>
+        <input type="text" name="t2"><br><br />
+        <input type="button" value="Area" onClick="area()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="button" value="Perimeter" onClick="perimeter()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="reset" value="Clear">
+        
+    </form>
+    
+    
+        
+    </body>
+</html>
